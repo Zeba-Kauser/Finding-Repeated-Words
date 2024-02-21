@@ -22,5 +22,6 @@ group by value
 having COUNT(value) >1 ;
 --Explanation:
 
---This query first splits the content column into individual words using STRING_SPLIT 
---then it counts the occurrences of each word and filters out the words that are repeated more than once using the HAVING clause.
+-- Define a common table expression (CTE) named "Iteams"
+-- This CTE selects all columns from the namaste_python table
+-- The CROSS APPLY operator is used to apply the STRING_SPLIT function to each row of the namaste_python table.
