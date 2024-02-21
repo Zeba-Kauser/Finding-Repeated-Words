@@ -20,3 +20,7 @@ select value as words, COUNT(value) as repeat_count
 from Iteams 
 group by value 
 having COUNT(value) >1 ;
+--Explanation:
+
+--This query first splits the content column into individual words using STRING_SPLIT 
+--then it counts the occurrences of each word and filters out the words that are repeated more than once using the HAVING clause.
