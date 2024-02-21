@@ -4,4 +4,4 @@
 
 ![Table](https://github.com/Zeba-Kauser/Imges/blob/main/Table.PNG?raw=true)
 
-Solution [python Solution](https://github.com/Zeba-Kauser/Finding-Repeated-Words/blob/main/PythonSolution.ipynb) 
+**Solution:** [python Solution](https://github.com/Zeba-Kauser/Finding-Repeated-Words/blob/main/PythonSolution.ipynb) ,       [SQL Solution](https://github.com/Zeba-Kauser/Finding-Repeated-Words/commit/30750aa6cf5ca7aee5470716ef9fc1291a546147)
